@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=s-1-cfg10
+#SBATCH -o lammps.out
+#SBATCH --ntasks=32
+#SBATCH -t 10:00:00
+#SBATCH --ntasks-per-socket=16
+#SBATCH --distribution=cyclic:cyclic
+ 
+cd $SLURM_SUBMIT_DIR
+
+module load intel/2016.0.109  openmpi/1.10.2 fftw/3.3.4
+ 
+LAMMPS=/home/chrisrbillman/LAMMPS-TLS_3-16-2017/src/lmp_hpc
+INPUT=in.search
+ 
+mpiexec -n 32 $LAMMPS -in $INPUT

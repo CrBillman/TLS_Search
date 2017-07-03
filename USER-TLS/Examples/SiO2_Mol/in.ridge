@@ -1,0 +1,49 @@
+# Simple Example of the Bisection and Ridge Methods
+
+# Define simulation parameters
+units		metal
+dimension	3
+atom_style	charge
+
+#Define pair_style and load atomic configuration from pos.dat
+pair_style buck/coul/long 10.0
+read_data pos.dat
+
+#This is the BKS potential for silica
+kspace_style    ewald 1.0e-6
+pair_modify     shift yes
+pair_coeff      1 2 18003.7572 0.2052048 133.5381
+pair_coeff      2 2 1388.77300 0.3623188 175.0000
+pair_coeff      1 1 0.00000000 1.0000000 0.000000
+neighbor        1.0 nsq
+neigh_modify    every 1 delay 1 check yes
+
+#More simulation details
+timestep 0.001
+fix 1 all nve
+
+#This simulation moves a single Si atoms between two fixed O atoms.  These groups are used to fix the O atoms
+group frozen id 1 3 4
+group moving id 2
+fix freeze frozen setforce 0.0 0.0 0.0
+
+#CG is faster, so it's preferable when running the ridge method.
+min_style cg
+
+#To run the bisection method, the steps of the trajectory must be stored in dump.min
+dump	1	all	atom	1	dump.min
+#The bisection method doesn't need unscaled coordinates, but it's easier to understand when reading the file.
+dump_modify 1 scale no
+#Runs the trajectory, moving the Si atom from -3 Ang to +3 Ang, which will move between the two metabasins where the Si atom is bonded to a single O atom
+fix mfreeze moving setforce 0.0 0.0 0.0
+velocity moving set 60 0.0 0.0
+thermo 1
+run 100
+thermo 50
+undump 1
+unfix mfreeze
+
+#Run the bisection method, which finds the two closest steps in the trajectory that straddle the ridge between metabasins
+bisection 100 0.010 FMD dump.min
+#Run the ridge method, which locates the saddle point between the two minima found by the bisection method
+ridge 100 4 0.02 15e-3

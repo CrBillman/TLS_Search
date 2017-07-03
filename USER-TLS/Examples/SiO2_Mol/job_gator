@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=lammps-job 
+#SBATCH -o lammps.out
+#SBATCH -N 1
+#SBATCH -n 2
+#SBATCH -t 00:02:00
+ 
+cd $SLURM_SUBMIT_DIR
+
+module load intel/2016.0.109  openmpi/1.10.2 fftw/3.3.4
+ 
+ 
+LAMMPS=/home/chrisrbillman/LAMMPS-TLS_3-16-2017/src/lmp_hpc
+INPUT=in.ridge
+ 
+mpiexec -n 2 $LAMMPS -in $INPUT

@@ -1,0 +1,20 @@
+#Oxygen Test
+
+3	atoms
+2 	atom types
+
+-25 25 xlo xhi
+-25 25 ylo yhi
+-25 25 zlo zhi
+0.0 0.0 0.0 xy xz yz
+
+Atoms
+
+1       1      -1.2     -5.0     0.0     0.0
+2       2       2.4     -3.0     0.0     0.0
+3       1      -1.2     5.0      0.0     0.0
+
+Masses
+
+1  15.99940
+2  28.08550

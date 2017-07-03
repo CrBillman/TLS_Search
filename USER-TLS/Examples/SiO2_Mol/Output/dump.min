@@ -1,0 +1,1212 @@
+ITEM: TIMESTEP
+0
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -3 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+1
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.94 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+2
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.88 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+3
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.82 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+4
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.76 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+5
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.7 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+6
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.64 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+7
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.58 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+8
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.52 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+9
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.46 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+10
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.4 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+11
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.34 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+12
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.28 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+13
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.22 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+14
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.16 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+15
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.1 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+16
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -2.04 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+17
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.98 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+18
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.92 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+19
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.86 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+20
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.8 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+21
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.74 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+22
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.68 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+23
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.62 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+24
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.56 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+25
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.5 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+26
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.44 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+27
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.38 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+28
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.32 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+29
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.26 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+30
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.2 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+31
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.14 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+32
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.08 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+33
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -1.02 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+34
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.96 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+35
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.9 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+36
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.84 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+37
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.78 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+38
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.72 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+39
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.66 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+40
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.6 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+41
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.54 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+42
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.48 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+43
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.42 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+44
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.36 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+45
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.3 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+46
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.24 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+47
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.18 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+48
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.12 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+49
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -0.06 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+50
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 -4.27436e-15 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+51
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.06 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+52
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.12 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+53
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.18 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+54
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.24 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+55
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.3 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+56
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.36 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+57
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.42 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+58
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.48 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+59
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.54 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+60
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.6 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+61
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.66 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+62
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.72 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+63
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.78 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+64
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.84 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+65
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.9 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+66
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 0.96 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+67
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.02 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+68
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.08 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+69
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.14 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+70
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.2 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+71
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.26 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+72
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.32 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+73
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.38 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+74
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.44 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+75
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.5 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+76
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.56 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+77
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.62 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+78
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.68 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+79
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.74 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+80
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.8 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+81
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.86 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+82
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.92 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+83
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 1.98 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+84
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.04 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+85
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.1 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+86
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.16 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+87
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.22 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+88
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.28 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+89
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.34 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+90
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.4 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+91
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.46 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+92
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.52 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+93
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.58 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+94
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.64 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+95
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.7 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+96
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.76 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+97
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.82 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+98
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.88 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+99
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 2.94 0 0
+3 1 5 0 0
+ITEM: TIMESTEP
+100
+ITEM: NUMBER OF ATOMS
+3
+ITEM: BOX BOUNDS xy xz yz pp pp pp
+-25 25 0
+-25 25 0
+-25 25 0
+ITEM: ATOMS id type x y z
+1 1 -5 0 0
+2 2 3 0 0
+3 1 5 0 0

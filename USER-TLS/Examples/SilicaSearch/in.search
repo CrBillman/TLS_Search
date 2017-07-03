@@ -1,0 +1,66 @@
+# 2d Lennard-Jones melt and subsequent energy minimization
+
+#Initialize simulation
+units           metal
+dimension       3
+atom_style      charge
+
+pair_style buck/coul/long 10.0
+read_data sample.dat
+
+kspace_style    ewald 1.0e-6
+pair_modify     shift yes
+pair_coeff      1 2 18003.7572 0.2052048 133.5381
+pair_coeff      2 2 1388.77300 0.3623188 175.0000
+pair_coeff      1 1 0.00000000 1.0000000 0.000000
+neighbor        1.0 nsq
+neigh_modify    every 1 delay 1 check yes
+
+read_dump sample.dump 1150000 x y z
+
+#Cool from 2000K to 1000K
+timestep 0.001
+velocity all create 1000.0 123
+thermo		100
+fix 1 all nvt temp 1000.0 1000.0 0.25
+
+#Get rid of previous output files
+shell rm TLS.dump TLS.pos
+shell rm cc_ec_elastic.dump cc_ec_final.dump cc_ec_raw_data.dump
+
+#Conjugate-gradient relaxation is efficient, and should help speed up ridge method.  It can sometimes result in problems when it causes atoms to hop the Fermi repulsion barrier
+#Leading to errors.
+min_style cg
+#This loop performs the TLS search:
+#	Runs a 1500 step trajectory, saving the atomic positions and velocity in dump.min and dump.vel respectively
+#	Runs the bisection method to find adjacent minima and locate the closest steps of the trajectory that span the ridge separating the minima
+#	Runs the ridge method to locate the saddle point.  If successfully located, the ridge method also calculates the relaxation time of each minima
+#	Calculates the coupling constant and elastic moduli of the discovered TLS
+#	Loads the velocity and atomic positions from the final step of the initial trajectory
+#	Cleans up, removing dump.min and dump.vel
+variable i loop 100
+        label LoopStart
+        print "UPDATE-Doing TLS Search.  On step $i"
+        reset_timestep 0
+	#Runs trajectory
+        dump            1 all atom 1 dump.min
+        dump_modify     1 scale no
+        run             1500
+        dump            2 all custom 1 dump.vel id vx vy vz
+        run 0
+        undump 1
+        undump 2
+	#Runs bisection method
+        bisection 1500 0.02 FMD dump.min
+	#Runs ridge method
+        ridge 100 3 0.02 15e-3
+	#Calculates coupling constant and elastic moduli
+        couple_elastic 0.005 linear relax
+	#Resumes from end of trajectory
+        read_dump dump.min 1500 x y z
+        read_dump dump.vel 1500 vx vy vz
+	#Removes dump files from trajectory
+        shell rm dump.min
+        shell rm dump.vel
+        next i
+        jump SELF LoopStart
