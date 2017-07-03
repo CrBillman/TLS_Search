@@ -10,12 +10,13 @@ The people who created this package are Chris Billman (cbillman1117@gmail.com) a
 (jptrinastic at gmail dot com) at the University of Florida in Prof. Hai-Ping Cheng's research group. Contact
 them directly if you have questions.
 
-*************************************************************************************************************
+******
 
 The goal of the TLS search is to sample the potential energy landscape and locate adjacent minima that are connected
 through a single saddle point.  More information can be found in R Hamdan, JP Trinastic, HP Cheng.
 The Journal of chemical physics 141 (5), 054501; JP Trinastic, R Hamdan, C Billman, HP Cheng.
 Physical Review B 93 (1), 014105; CR Billman, JP Trinastic, DJ Davis, R Hamdan, HP Cheng.
+
 Physical Review B 95 (1), 014109.  In this package, the search is performed by running trajectories in classical MD.  
 The bisection method locates adjacent minima from the trajectory, and also evaluates which steps in the trajectory 
 are closest while still spanning the ridge between the two minima. The ridge method takes this information, and 
@@ -32,31 +33,35 @@ TLS search.  In general, these parameters should be tested for each material.  F
 found that these parameters result in good performance.  To evaluate performance, the success rate of the
 bisection and ridge methods should be evaluated.  All of the output of the TLS search is written to the output and
 preceded by the string "UPDATE".  To diagnose problems and optimize parameters, it is essential that the TLS Search
-output is investigated.  The easiest way to do this is to grep UPDATE <output> > updates and examine the output there.
+output is investigated.  The easiest way to do this is to 
+
+grep UPDATE <output> > updates 
+
+and examine the output there.
 
 Commands:
 
 bisection nSteps dCut mStore file
-    nSteps: The number of steps in the trajectory.  A good value is 1500.
-    dCut: A cut-off distance for minima comparison.  To determine if two minima are identical, the RMS distance between 
+    *nSteps: The number of steps in the trajectory.  A good value is 1500.
+    *dCut: A cut-off distance for minima comparison.  To determine if two minima are identical, the RMS distance between 
         the wells is computed.  If this distance is smaller than dCut, the minima are labelled identical.  A good value 
         is 0.02 Angstroms.
-    mStore: The method of storing the trajectory.  Currently, it's stored in a dump file, and the corresponding option 
+    *mStore: The method of storing the trajectory.  Currently, it's stored in a dump file, and the corresponding option 
         is "FMD".
-    file: The location of the trajectory.  Example scripts store the trajectory in dump.min.
+    *file: The location of the trajectory.  Example scripts store the trajectory in dump.min.
 
 ridge maxLoops nBisection dCut maxForce
-    maxLoops: The maximum number of iterations of the ridge method.  A good value is 100.
-    nRelaxation: The number of times that configurations are bisected during the ridge method. A good value is 3.
-    dCut: A cut-off distance for minima comparison.  To determine if two minima are identical, the RMS distance between
+    *maxLoops: The maximum number of iterations of the ridge method.  A good value is 100.
+    *nRelaxation: The number of times that configurations are bisected during the ridge method. A good value is 3.
+    *dCut: A cut-off distance for minima comparison.  To determine if two minima are identical, the RMS distance between
         the wells is computed.  If this distance is smaller than dCut, the minima are labelled identical.  A good value 
         is 0.02 Angstroms.
-    maxForce: The force tolerance for the saddle point.  A good value is 15e-3.
+    *maxForce: The force tolerance for the saddle point.  A good value is 15e-3.
 
 couple_elastic maxStrain mSlope
-    maxStrain: The maximum strain to apply to the unit cell when calculating the coupling constant and elastic moduli.
+    *maxStrain: The maximum strain to apply to the unit cell when calculating the coupling constant and elastic moduli.
         This value should be small enough not to violate the linear response approximation.  A good value is 0.005.
-    mSlope: The method of calculating the slope from the evaluated pressure and energy.  Currently, only "linear" is supported.
+    *mSlope: The method of calculating the slope from the evaluated pressure and energy.  Currently, only "linear" is supported.
 
 Two examples are included with this package.  In the first, the bisection and ridge method are demonstrated on an SiO2 "molecule".
 The oxygen atoms are fixed 10 Angstroms away, so that the Si atom cannot bond to both simultaneously.  As the Si atom moves betwen
