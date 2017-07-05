@@ -35,7 +35,7 @@ bisection and ridge methods should be evaluated.  All of the output of the TLS s
 preceded by the string "UPDATE".  To diagnose problems and optimize parameters, it is essential that the TLS Search
 output is investigated.  The easiest way to do this is to 
 
-grep UPDATE <output> > updates 
+grep UPDATE (output) > updates 
 
 and examine the output there.
 
@@ -74,10 +74,10 @@ When a TLS is successfully located, its properties can be located in TLS.dump, T
 these files is explained below:
 
 TLS.dump contains the output from both the bisection and ridge methods.  When the bisection method finishes successfully, it writes
-Bisection <Asymmetry> <RMS distance>
+Bisection (Asymmetry) (RMS distance)
 
 When the ridge method finishes successfully, it writes
-<Asymmetry> <Barrier Height> <RMS distance> <Barrier Height from the left> <Barrier Height from the right> <Left Relaxation Time> <Right Relaxation Time>
+(Asymmetry) (Barrier Height) (RMS distance) (Barrier Height from the left) (Barrier Height from the right) (Left Relaxation Time) (Right Relaxation Time)
 
 When a TLS is successfully located, the atomic positions of each minima and the saddle point is dumped to TLS.pos.  The timesteps identify
 which configuration it is.  For the first minima, the timestep is 0; for the second minima, the timestep is 1; for the saddle point, the timestep is 2.
